@@ -1,0 +1,45 @@
+.myform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.2px solid black;
+  width: 26em;
+  height: 17em;
+  margin: auto;
+  margin-top: 120px;
+  box-shadow: 14px 14px 12px;
+  background-color: #41cf1b;
+}
+.email {
+  font-weight: 500;
+  font-size: 23px;
+  margin-right: 33px;
+}
+.password {
+  font-weight: 500;
+  font-size: 23px;
+}
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="password"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+.block {
+  padding-top: 37px;
+}
+.button {
+  margin-top: 37px;
+  margin-left: 32px;
+  width: 269px;
+  height: 46px;
+  border-radius: 17px;
+  background-color: #4300b3;
+  font-family: sans-serif;
+}
