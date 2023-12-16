@@ -9,12 +9,12 @@ function LoginPage() {
     password: "",
   });
 
-  const handleSubmit = (values) => {
-    console.log(values);
+  const handleSubmit = (e) => {
+    console.log(e);
   };
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name + " " + value);
+    // console.log(name + " " + value);
     updateState({
       ...initialState,
       [name]: value,

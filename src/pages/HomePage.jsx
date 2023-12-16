@@ -5,7 +5,6 @@ import Mainpage from "../component/Mainpage";
 function HomePage() {
   return (
     <div>
-      <h2>Sahil.......</h2>
       <Navbar />
       <Mainpage />
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function ProductStructurs(props) {
   const { id, price, image, description, title } = props.object;
   return (
@@ -11,8 +11,8 @@ function ProductStructurs(props) {
           <span>&#8377;</span> {price}
         </h3>
 
-        <a href="#" class="btn btn-primary btn-block">
-          Select
+        <a class="btn btn-primary btn-block">
+          <Link to={`/productdetails/${id}`}>Select</Link>
         </a>
       </div>
     </div>
